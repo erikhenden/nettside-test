@@ -1,0 +1,130 @@
+/* Header */
+
+body {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 24px;
+    background-color: #F4F2EC;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 24px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+button:hover {
+    cursor: pointer;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-left-header {
+    flex: auto;
+    margin-left: 30px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+h1 {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 24px;
+    font-weight: normal;
+    display: flex;
+}
+
+.header-navn {
+    font-weight: bold;
+}
+
+
+
+.skillevegg {
+    margin-left: 10px;
+    margin-right: 10px;
+    color:rgb(80, 80, 80);
+}
+
+.psykolog-nett {
+    color:rgb(80, 80, 80);
+    display: flex;
+}
+
+.top-right-header {
+    flex: auto;
+    text-align: end;
+    margin-right: 30px;
+}
+
+.button-bestill, .button-sjekk-time {
+    background-color: #E9DFBC;
+    border: none;
+    padding: 12px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+}
+
+.button-bestill:hover {
+    background-color: rgba(255, 207, 145, 0.678);
+}
+
+.button-bestill:active {
+    opacity: 0.3;
+}
+
+.pitch-section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 88px 10px;
+    gap: 10px;
+}
+
+.pitch-box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-left: 130px;
+    margin-right: 130px;
+    vertical-align: center;
+}
+
+.pitch-box-left {
+    flex: 1.5;
+}
+
+.pitch-box-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+}
+
+.pitch-tekst {
+    font-family: 'Frank Ruhl Libre', serif;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    color: rgb(90, 90, 90);
+}
+
+.sammen-span {
+    color: black;
+}
+
+.picture-chear {
+    width: 386px;
+}
